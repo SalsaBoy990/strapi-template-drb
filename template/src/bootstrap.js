@@ -34,13 +34,11 @@ async function isFirstRun() {
 
 async function setPublicPermissions(newPermissions) {
   // Find the ID of the public role
-  const publicRole = await strapi
-    .query("plugin::users-permissions.role")
-    .findOne({
-      where: {
-        type: "public",
-      },
-    });
+  const publicRole = await strapi.query("plugin::users-permissions.role").findOne({
+    where: {
+      type: "public",
+    },
+  });
 
   // Create the new permissions and link them to the public role
   const allPermissionsToCreate = [];
@@ -149,9 +147,7 @@ async function updateBlocks(blocks) {
       updatedBlocks.push(blockCopy);
     } else if (block.__component === "shared.slider") {
       // Get files already uploaded to Strapi or upload new files
-      const existingAndUploadedFiles = await checkFileExistsBeforeUpload(
-        block.files
-      );
+      const existingAndUploadedFiles = await checkFileExistsBeforeUpload(block.files);
       // Copy the block to not mutate directly
       const blockCopy = { ...block };
       // Replace the file names on the block with the actual files
@@ -170,8 +166,14 @@ async function updateBlocks(blocks) {
 async function updateImageBlocks(blocks) {
   const updatedBlocks = [];
   for (const block of blocks) {
-    const background = await checkFileExistsBeforeUpload([block.background]);
-    const logo = await checkFileExistsBeforeUpload([block.logo]);
+    let background = null;
+    let logo = null;
+    if (block.background !== null) {
+      background = await checkFileExistsBeforeUpload([block.background]);
+    }
+    if (block.logo !== null) {
+      logo = await checkFileExistsBeforeUpload([block.logo]);
+    }
     // Copy the block to not mutate directly
     const blockCopy = { ...block };
     // Replace the file name on the block with the actual file
@@ -185,8 +187,14 @@ async function updateImageBlocks(blocks) {
 async function updateSlides(blocks) {
   const updatedBlocks = [];
   for (const block of blocks) {
-    const image = await checkFileExistsBeforeUpload([block.image]);
-    const logo = await checkFileExistsBeforeUpload([block.logo]);
+    let image = null;
+    let logo = null;
+    if (block.image !== null) {
+      image = await checkFileExistsBeforeUpload([block.image]);
+    }
+    if (block.logo !== null) {
+      logo = await checkFileExistsBeforeUpload([block.logo]);
+    }
     // Copy the block to not mutate directly
     const blockCopy = { ...block };
     // Replace the file name on the block with the actual file
@@ -359,19 +367,15 @@ async function importAuthors() {
 
 async function importProjects() {
   for (const project of projects) {
-    const topLeftImage = await checkFileExistsBeforeUpload([
-      project.topLeftImage,
-    ]);
-    const topRightImage = await checkFileExistsBeforeUpload([
-      project.topRightImage,
-    ]);
-    const logo = await checkFileExistsBeforeUpload([project.logo]);
-    const sideTopImage = await checkFileExistsBeforeUpload([
-      project.sideTopImage,
-    ]);
-    const sideBottomImage = await checkFileExistsBeforeUpload([
-      project.sideBottomImage,
-    ]);
+    const topLeftImage = await checkFileExistsBeforeUpload([project.topLeftImage]);
+    const topRightImage = await checkFileExistsBeforeUpload([project.topRightImage]);
+
+    let logo = null;
+    if (project.logo !== null) {
+      logo = await checkFileExistsBeforeUpload([project.logo]);
+    }
+    const sideTopImage = await checkFileExistsBeforeUpload([project.sideTopImage]);
+    const sideBottomImage = await checkFileExistsBeforeUpload([project.sideBottomImage]);
 
     await createEntry({
       model: "project",
@@ -389,9 +393,11 @@ async function importProjects() {
 
 async function importProjectGroups() {
   for (const projectGroup of projectGroups) {
-    const background = await checkFileExistsBeforeUpload([
-      projectGroup.background,
-    ]);
+    let background = null;
+
+    if (projectGroup.background !== null) {
+      background = await checkFileExistsBeforeUpload([projectGroup.background]);
+    }
 
     await createEntry({
       model: "project-group",
@@ -405,8 +411,11 @@ async function importProjectGroups() {
 
 async function importBoxGroups() {
   for (const boxGroup of boxGroups) {
-    const background = await checkFileExistsBeforeUpload([boxGroup.background]);
+    let background = null;
 
+    if (boxGroup.background !== null) {
+      background = await checkFileExistsBeforeUpload([boxGroup.background]);
+    }
     await createEntry({
       model: "box-group",
       entry: {
@@ -419,8 +428,14 @@ async function importBoxGroups() {
 
 async function importBoxes() {
   for (const box of boxes) {
-    const background = await checkFileExistsBeforeUpload([box.background]);
-    const logo = await checkFileExistsBeforeUpload([box.logo]);
+    let background = null;
+    let logo = null;
+    if (box.background !== null) {
+      background = await checkFileExistsBeforeUpload([box.background]);
+    }
+    if (box.logo !== null) {
+      logo = await checkFileExistsBeforeUpload([box.logo]);
+    }
 
     await createEntry({
       model: "box",
