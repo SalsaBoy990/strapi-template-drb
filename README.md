@@ -1,6 +1,6 @@
-# strapi-template-blog
+# strapi-template-drb
 
-A Strapi template to create Strapi projects pre-configured for blog apps.
+A Strapi template to create Strapi projects pre-configured for apps.
 
 ## Usage
 
