@@ -87,7 +87,7 @@
       "title": "Városfejlesztés",
       "background": "udg/varosfejlesztes.png",
       "logo": null,
-      "slug": "smart-city",
+      "slug": "smart-city-3",
       "boxGroup": {
         "id": 2
       }
@@ -238,7 +238,7 @@
         "textColor": null,
         "boxHeight": null,
         "background": "udg/home/lanchid.png",
-        "logo": "udg/logo/logo-1.png"
+        "logo": "udg/logo/logo1.png"
       },
       {
         "heading": "GREENBOX PÁLYAMONITOROZÓ RENDSZER FEJLESZTÉSE",
