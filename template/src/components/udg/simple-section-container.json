@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_udg_simple_section_containers",
+  "info": {
+    "displayName": "Simple section container",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "customClass": {
+      "type": "string"
+    },
+    "simpleBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "udg.simple-block"
+    }
+  }
+}

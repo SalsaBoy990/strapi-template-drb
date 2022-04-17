@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_image_sliders",
+  "info": {
+    "displayName": "Image slider",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slide": {
+      "displayName": "Slide",
+      "type": "component",
+      "repeatable": true,
+      "component": "udg.slide"
+    }
+  }
+}

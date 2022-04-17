@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_component_video_embeds",
+  "info": {
+    "displayName": "Video",
+    "icon": "play-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "source": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "elementId": {
+      "type": "string",
+      "default": "intro-video-1"
+    }
+  }
+}

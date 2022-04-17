@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_udg_project_sliders",
+  "info": {
+    "displayName": "Project slider",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "project": {
+      "type": "component",
+      "repeatable": true,
+      "component": "udg.project"
+    }
+  }
+}

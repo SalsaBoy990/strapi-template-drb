@@ -1,0 +1,747 @@
+{
+  "global": {
+    "siteName": "Strapi Blog",
+    "defaultSeo": {
+      "metaTitle": "Page",
+      "metaDescription": "A blog made with Strapi",
+      "shareImage": null
+    },
+    "siteDescription": "A Blog made with Strapi",
+    "favicon": null,
+    "video": {
+      "title": "teszt",
+      "source": "udg/example.mp4",
+      "elementId": "intro-video-1"
+    }
+  },
+  "about": {
+    "title": "About the strapi blog",
+    "blocks": [
+      {
+        "__component": "shared.quote",
+        "title": "Thelonius Monk",
+        "body": "You've got to dig it to dig it, you dig?"
+      },
+      {
+        "__component": "shared.rich-text",
+        "body": "## Dedit imago conspicuus cum capillis totidem inhibere\n\nLorem markdownum **rerum**, est limine: columbas: ab infelix hostem arbore nudis\ncrudelis. Videtur reliquit ambo ferrum dote sub amne fatis **illuc**, in magis,\nnec."
+      },
+      {
+        "__component": "shared.media",
+        "file": "coffee-art.jpg"
+      }
+    ]
+  },
+  "boxGroups": [
+    {
+      "title": "Kiemelt referenciák",
+      "description": "",
+      "background": null,
+      "slug": "kiemelt-referenciak"
+    },
+    {
+      "title": "Települési megoldások",
+      "description": "Magyarország települései a technológia fejlődésében is minden nap új meg új kihívások elé néznek, mivel a városi infrastruktúra fejlesztései költségesek és a befektetett eszközök megtérülése, társadalmi haszna sokszor nehezen kalkulálható. Ráadásul a most felhasznált források 15-20 évre meghatározzák egy település fejlődési lehetőségeit, fenntartási és üzemeltetési költségeit, és egyáltalán a versenyképességet. Innovativ fejlesztési megoldásaink segítik a településeket ebben a versenyben. Büszkék vagyunk, hogy számos települést segíthetünk egy modernebb, fenntarthatóbb jövő elérésében kollégáink kiemelkedő szaktudásával.\n\n**UDG - VÁROSÜZEMLETETÉS EGYSZERŰEN.**",
+      "background": null,
+      "slug": "telepulesi-megoldasok"
+    },
+    {
+      "title": "Termékfejlesztés",
+      "description": "Szerteágazó szakmai háttérrel rendelkező csapatunk gyors és személyreszabott IT megoldásokkal, településfejlesztési eszközökkel és hatékony projekttapasztalattal lépdel előre a városüzemeltetés digitalizációjában. Legyen szó részfeladatok fejlesztéséről, vagy komplett rendszerek installálásáról, szívesen vállaljuk a kihívást.\n\n- Nec furtim copia rugis Andros\n- Vidi aesculeae\n- Comitem habet neque inpavidus cui signa tibi",
+      "background": null,
+      "slug": "termekfejlesztes"
+    },
+    {
+      "title": "Üzletfejlesztés",
+      "description": "Üzletviteli tanácsadás, auditálás valamint energiahatékonyságot javító magán ls önkormányzati beruházások, renkonstrukciók gazdasági modelljeinek kidolgozása. Üzemletetési alapú digitális megoldások integrálása.\n\n**Ötlettől - Üzletig.**\n\n# Auxerat Curibusque armenta lentos vulnus\n\n## Lumina redeuntem\n\nLorem markdownum deorum. Metu dignabitur reticere alimentaque neque tantum procul montes loquenti, nisi, hos mirantur fraxinus placeat.",
+      "background": "udg/uzletfejlesztes.png",
+      "slug": "uzletfejlesztes"
+    },
+    {
+      "title": "Referenciák",
+      "description": "# Auxerat Curibusque armenta lentos vulnus\n\n## Lumina redeuntem\n\nLorem markdownum deorum. Metu dignabitur reticere alimentaque neque tantum procul montes loquenti, nisi, hos mirantur fraxinus placeat.\n\n- Nec furtim copia rugis Andros\n- Vidi aesculeae\n- Comitem habet neque inpavidus cui signa tibi",
+      "background": null,
+      "slug": "referenciak"
+    }
+  ],
+  "boxes": [
+    {
+      "title": "Smart City",
+      "background": "udg/smart-city.png",
+      "logo": null,
+      "slug": "smart-city",
+      "boxGroup": {
+        "id": 2
+      }
+    },
+    {
+      "title": "Energiagazdálkodás",
+      "background": "udg/energiagazdalkodas.png",
+      "logo": null,
+      "slug": "energy",
+      "boxGroup": {
+        "id": 2
+      }
+    },
+    {
+      "title": "Városfejlesztés",
+      "background": "udg/varosfejlesztes.png",
+      "logo": null,
+      "slug": "smart-city",
+      "boxGroup": {
+        "id": 2
+      }
+    },
+    {
+      "title": "Beágyazott megoldások",
+      "background": "udg/beagyazott-megoldasok.png",
+      "logo": null,
+      "slug": "bbqube",
+      "boxGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "Qubees",
+      "background": "udg/qubees.png",
+      "logo": null,
+      "slug": "qubees",
+      "boxGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "Data Light",
+      "background": "udg/lanchid-2.png",
+      "logo": null,
+      "slug": "data-light",
+      "boxGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "UTU Watch",
+      "background": "udg/utu-watch.png",
+      "logo": null,
+      "slug": "utu-watch",
+      "boxGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "UTU Sense",
+      "background": "udg/utu-sense.png",
+      "logo": null,
+      "slug": "utu-sense",
+      "boxGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "Greenbox",
+      "background": "udg/greenbox.png",
+      "logo": null,
+      "slug": "greenbox",
+      "boxGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "Bsmart felmérő applikáció",
+      "background": "udg/bsmart.png",
+      "logo": null,
+      "slug": "smart-city",
+      "boxGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "For profit szektor",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 4
+      }
+    },
+    {
+      "title": "Önkormányzati szektor",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 4
+      }
+    },
+    {
+      "title": "Nagyvállalati szektor",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 4
+      }
+    },
+    {
+      "title": "Energetikai beruházás",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 5
+      }
+    },
+    {
+      "title": "Smart City beruházás",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 5
+      }
+    },
+    {
+      "title": "IT fejlesztések, egyedi szoftvermegoldások",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 5
+      }
+    },
+    {
+      "title": "For profit szektor",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 5
+      }
+    },
+    {
+      "title": "Önkormányzati szektor",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 5
+      }
+    }
+  ],
+  "referenceSlides": {
+    "imageBlocks": [
+      {
+        "heading": "BUDAPEST VILÁGÍTÁSI MESTERTERVE",
+        "linkTo": null,
+        "hasOverlay": true,
+        "hasBackArrow": false,
+        "textColor": null,
+        "boxHeight": null,
+        "background": "udg/home/lanchid.png",
+        "logo": "udg/logo/logo-1.png"
+      },
+      {
+        "heading": "GREENBOX PÁLYAMONITOROZÓ RENDSZER FEJLESZTÉSE",
+        "linkTo": null,
+        "hasOverlay": true,
+        "hasBackArrow": false,
+        "textColor": null,
+        "boxHeight": null,
+        "background": "udg/home/cover2.png",
+        "logo": "robot.png"
+      },
+      {
+        "heading": "INTELLIGENS KÖZLEKEDÉSVEZÉRLŐ RENDSZER",
+        "linkTo": null,
+        "hasOverlay": true,
+        "hasBackArrow": false,
+        "textColor": null,
+        "boxHeight": null,
+        "background": "udg/home/cover3.png",
+        "logo": null
+      },
+      {
+        "heading": "BÉKÉSCSABA SMART CITY RENDSZERTERVE",
+        "linkTo": null,
+        "hasOverlay": true,
+        "hasBackArrow": false,
+        "textColor": null,
+        "boxHeight": null,
+        "background": "udg/home/cover4.png",
+        "logo": "udg/logo/logo3.png"
+      }
+    ],
+    "titleBar": {
+      "title": "Kiemelt referenciák"
+    }
+  },
+  "projectGroups": [
+    {
+      "title": "Bbqube",
+      "description": "",
+      "background": null,
+      "slug": "bbqube"
+    },
+    {
+      "title": "Data Light",
+      "description": "",
+      "background": null,
+      "slug": "datalight"
+    },
+    {
+      "title": "UTU Watch",
+      "description": "",
+      "background": null,
+      "slug": "utu-watch"
+    },
+    {
+      "title": "UTU Sense",
+      "description": "",
+      "background": null,
+      "slug": "utu-sense"
+    },
+    {
+      "title": "Greenbox",
+      "description": "",
+      "background": null,
+      "slug": "greenbox"
+    },
+    {
+      "title": "Energy",
+      "description": "",
+      "background": null,
+      "slug": "energy"
+    },
+    {
+      "title": "Smart City",
+      "description": "",
+      "background": null,
+      "slug": "smart-city"
+    }
+  ],
+  "projects": [
+    {
+      "title": "QUBEES",
+      "description": "**Ügyfél:**\n\nURBEN DESIGN GROUP KFT.\n\n**Projekt időtartama:**\n\n2021. február - 2022. május\n\n**Projekt leírás:**\n\nSaját üzletfejlesztési projekt. BBQUBE autonóm, érintésmentes grillezőrendszer hardver és szoftverkörnyezet, IoT és beágyazott rendszerek, távfelügyeleti monitoringfelület, ux ui, Android | IOS applikáció fejlesztés, üzemletetési és értékesítési modulok kialakítása.\n",
+      "topLeftImage": "udg/bbqube/bbqube1.png",
+      "topRightImage": "udg/bbqube/bbqube2.png",
+      "logo": null,
+      "navTitle": "TERMÉKFEJLESZTÉS",
+      "sideTopImage": "udg/bbqube/bbqube3.png",
+      "sideBottomImage": "udg/bbqube/bbqube4.png",
+      "seoDescription": "Bbqube megoldások",
+      "projectGroup": {
+        "id": 1
+      }
+    },
+    {
+      "title": "Datalight",
+      "description": "**Ügyfél:**\n\nURBEN DESIGN GROUP KFT.\n\n**Projekt időtartama:**\n\n2021. február - 2022. május\n\n**Projekt leírás:**\n\nSaját üzletfejlesztési projekt. BBQUBE autonóm, érintésmentes grillezőrendszer hardver és szoftverkörnyezet, IoT és beágyazott rendszerek, távfelügyeleti monitoringfelület, ux ui, Android | IOS applikáció fejlesztés, üzemletetési és értékesítési modulok kialakítása.\n",
+      "topLeftImage": "udg/datalight/datalight1.png",
+      "topRightImage": "udg/datalight/datalight2.png",
+      "logo": null,
+      "navTitle": "TERMÉKFEJLESZTÉS",
+      "sideTopImage": "udg/datalight/datalight3.png",
+      "sideBottomImage": "udg/datalight/datalight4.png",
+      "seoDescription": "Bbqube megoldások",
+      "projectGroup": {
+        "id": 2
+      }
+    },
+    {
+      "title": "UTU Watch",
+      "description": "**Ügyfél:**\n\nURBEN DESIGN GROUP KFT.\n\n**Projekt időtartama:**\n\n2021. február - 2022. május\n\n**Projekt leírás:**\n\nSaját üzletfejlesztési projekt. BBQUBE autonóm, érintésmentes grillezőrendszer hardver és szoftverkörnyezet, IoT és beágyazott rendszerek, távfelügyeleti monitoringfelület, ux ui, Android | IOS applikáció fejlesztés, üzemletetési és értékesítési modulok kialakítása.\n",
+      "topLeftImage": "udg/datalight/datalight1.png",
+      "topRightImage": "udg/datalight/datalight2.png",
+      "logo": null,
+      "navTitle": "TERMÉKFEJLESZTÉS",
+      "sideTopImage": "udg/datalight/datalight3.png",
+      "sideBottomImage": "udg/datalight/datalight4.png",
+      "seoDescription": "Bbqube megoldások",
+      "projectGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "UTU Sense",
+      "description": "**Ügyfél:**\n\nURBEN DESIGN GROUP KFT.\n\n**Projekt időtartama:**\n\n2021. február - 2022. május\n\n**Projekt leírás:**\n\nSaját üzletfejlesztési projekt. BBQUBE autonóm, érintésmentes grillezőrendszer hardver és szoftverkörnyezet, IoT és beágyazott rendszerek, távfelügyeleti monitoringfelület, ux ui, Android | IOS applikáció fejlesztés, üzemletetési és értékesítési modulok kialakítása.\n",
+      "topLeftImage": "udg/datalight/datalight1.png",
+      "topRightImage": "udg/datalight/datalight2.png",
+      "logo": null,
+      "navTitle": "TERMÉKFEJLESZTÉS",
+      "sideTopImage": "udg/datalight/datalight3.png",
+      "sideBottomImage": "udg/datalight/datalight4.png",
+      "seoDescription": "Bbqube megoldások",
+      "projectGroup": {
+        "id": 4
+      }
+    },
+    {
+      "title": "Greenbox",
+      "description": "**Ügyfél:**\n\nURBEN DESIGN GROUP KFT.\n\n**Projekt időtartama:**\n\n2021. február - 2022. május\n\n**Projekt leírás:**\n\nSaját üzletfejlesztési projekt. BBQUBE autonóm, érintésmentes grillezőrendszer hardver és szoftverkörnyezet, IoT és beágyazott rendszerek, távfelügyeleti monitoringfelület, ux ui, Android | IOS applikáció fejlesztés, üzemletetési és értékesítési modulok kialakítása.\n",
+      "topLeftImage": "udg/greenbox/greenbox1.png",
+      "topRightImage": "udg/greenbox/greenbox2.png",
+      "logo": null,
+      "navTitle": "TERMÉKFEJLESZTÉS",
+      "sideTopImage": "udg/greenbox/greenbox3.png",
+      "sideBottomImage": "udg/greenbox/greenbox4.png",
+      "seoDescription": "Bbqube megoldások",
+      "projectGroup": {
+        "id": 5
+      }
+    },
+    {
+      "title": "ENERGETIKA PROJEKT",
+      "description": "**Ügyfél:**\n\nURBEN DESIGN GROUP KFT.\n\n**Projekt időtartama:**\n\n2021. február - 2022. május\n\n**Projekt leírás:**\n\nSaját üzletfejlesztési projekt. BBQUBE autonóm, érintésmentes grillezőrendszer hardver és szoftverkörnyezet, IoT és beágyazott rendszerek, távfelügyeleti monitoringfelület, ux ui, Android | IOS applikáció fejlesztés, üzemletetési és értékesítési modulok kialakítása.\n",
+      "topLeftImage": "udg/energia/energia1.png",
+      "topRightImage": "udg/energia/energia2.png",
+      "logo": null,
+      "navTitle": "TERMÉKFEJLESZTÉS",
+      "sideTopImage": "udg/energia/energia3.png",
+      "sideBottomImage": "udg/energia/energia4.png",
+      "seoDescription": "Bbqube megoldások",
+      "projectGroup": {
+        "id": 6
+      }
+    },
+    {
+      "title": "FOLLOW ME MÚZEUM GUIDE RENDSZER",
+      "description": "**Ügyfél:**\n\nURBEN DESIGN GROUP KFT.\n\n**Projekt időtartama:**\n\n2021. február - 2022. május\n\n**Projekt leírás:**\n\nSaját üzletfejlesztési projekt. BBQUBE autonóm, érintésmentes grillezőrendszer hardver és szoftverkörnyezet, IoT és beágyazott rendszerek, távfelügyeleti monitoringfelület, ux ui, Android | IOS applikáció fejlesztés, üzemletetési és értékesítési modulok kialakítása.\n",
+      "topLeftImage": "udg/energia/energia5.png",
+      "topRightImage": "udg/energia/energia6.png",
+      "logo": null,
+      "navTitle": "TERMÉKFEJLESZTÉS",
+      "sideTopImage": "udg/energia/energia7.png",
+      "sideBottomImage": "udg/energia/energia8.png",
+      "seoDescription": "Bbqube megoldások",
+      "projectGroup": {
+        "id": 6
+      }
+    },
+    {
+      "title": "B-SMART PROJEKT",
+      "description": "**Ügyfél:**\n\nURBEN DESIGN GROUP KFT.\n\n**Projekt időtartama:**\n\n2021. február - 2022. május\n\n**Projekt leírás:**\n\nSaját üzletfejlesztési projekt. BBQUBE autonóm, érintésmentes grillezőrendszer hardver és szoftverkörnyezet, IoT és beágyazott rendszerek, távfelügyeleti monitoringfelület, ux ui, Android | IOS applikáció fejlesztés, üzemletetési és értékesítési modulok kialakítása.\n",
+      "topLeftImage": "udg/smart-city/smart-city1.png",
+      "topRightImage": "udg/smart-city/smart-city2.png",
+      "logo": null,
+      "navTitle": "TERMÉKFEJLESZTÉS",
+      "sideTopImage": "udg/smart-city/smart-city3.png",
+      "sideBottomImage": "udg/smart-city/smart-city4.png",
+      "seoDescription": "Bbqube megoldások",
+      "projectGroup": {
+        "id": 7
+      }
+    },
+    {
+      "title": "MONOR VÁROS OKOS VÁROS AKCIÓTERV",
+      "description": "**Ügyfél:**\n\nURBEN DESIGN GROUP KFT.\n\n**Projekt időtartama:**\n\n2021. február - 2022. május\n\n**Projekt leírás:**\n\nSaját üzletfejlesztési projekt. BBQUBE autonóm, érintésmentes grillezőrendszer hardver és szoftverkörnyezet, IoT és beágyazott rendszerek, távfelügyeleti monitoringfelület, ux ui, Android | IOS applikáció fejlesztés, üzemletetési és értékesítési modulok kialakítása.\n",
+      "topLeftImage": "udg/smart-city/smart-city5.png",
+      "topRightImage": "udg/smart-city/smart-city6.png",
+      "logo": null,
+      "navTitle": "TERMÉKFEJLESZTÉS",
+      "sideTopImage": "udg/smart-city/smart-city7.png",
+      "sideBottomImage": "udg/smart-city/smart-city8.png",
+      "seoDescription": "Bbqube megoldások",
+      "projectGroup": {
+        "id": 7
+      }
+    }
+  ],
+  "contact": {
+    "mapViews": [
+      {
+        "lat": "47.480709237647865",
+        "lng": "19.093530034914732",
+        "zoom": 18,
+        "scriptsAlreadyLoaded": false,
+        "title": "Iroda",
+        "address": "Elnök utca 1. 4lph. Budapest 1087."
+      },
+      {
+        "lat": "47.257034028937966",
+        "lng": "18.616715269195282",
+        "zoom": 18,
+        "scriptsAlreadyLoaded": true,
+        "title": "Telephely",
+        "address": "Haladás út 48. 8097 Nadap"
+      }
+    ],
+    "isOneMap": false
+  },
+  "footer": {
+    "title": "URBEN DESIGN GROUP KFT",
+    "description": "Fejlesztőközpont: NADAP Haladás út 48. 8097\n\nIroda: BUDAPEST Elnök utca 1., 4 lph. 1087\n\nMinden jog fenntartva.",
+    "logo": "udg/footer/logo-footer.png",
+    "flag": "udg/footer/hungary.png",
+    "developer": "udg/footer/drb.services.png"
+  },
+  "navigation": {
+    "navigationItems": [
+      { "title": "Települési megoldások", "slug": "#city-solutions" },
+      { "title": "Termékfejlesztés", "slug": "#product-development" },
+      { "title": "Üzletfejlesztés", "slug": "#business-development" },
+      { "title": "K+F", "slug": "kf" },
+      { "title": "Referenciák", "slug": "#reference-works" },
+      { "title": "Rólunk", "slug": "#contact" },
+      { "title": "Kontakt", "slug": "#contact" }
+    ],
+    "logo": "udg/Urben-Design-Group.png"
+  },
+  "partner": {
+    "slides": [
+      {
+        "image": "udg/logo/BCS_logo_B.png",
+        "logo": null,
+        "linkTo": null,
+        "title": "BCS"
+      },
+      {
+        "image": "udg/logo/ab_logo.png",
+        "logo": null,
+        "linkTo": null,
+        "title": "AB"
+      },
+      {
+        "image": "udg/logo/Rio_logo.png",
+        "logo": null,
+        "linkTo": null,
+        "title": "Rio"
+      },
+      {
+        "image": "udg/logo/LOGO.png",
+        "logo": null,
+        "linkTo": null,
+        "title": "Budapest"
+      },
+      {
+        "image": "udg/logo/UMS_logo_head_100px.png",
+        "logo": null,
+        "linkTo": null,
+        "title": "UMS"
+      },
+      {
+        "image": "udg/logo/barnamezo_logo_15.png",
+        "logo": null,
+        "linkTo": null,
+        "title": "Barnamező"
+      },
+      {
+        "image": "udg/logo/SURVEY_logo.png",
+        "logo": null,
+        "linkTo": null,
+        "title": "UTU Survey"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "name": "news",
+      "slug": "news"
+    },
+    {
+      "name": "tech",
+      "slug": "tech"
+    },
+    {
+      "name": "food",
+      "slug": "food"
+    },
+    {
+      "name": "nature",
+      "slug": "nature"
+    },
+    {
+      "name": "story",
+      "slug": "story"
+    }
+  ],
+  "authors": [
+    {
+      "name": "David Doe",
+      "email": "daviddoe@strapi.io",
+      "avatar": "daviddoe@strapi.io.jpg"
+    },
+    {
+      "name": "Sarah Baker",
+      "email": "sarahbaker@strapi.io",
+      "avatar": "sarahbaker@strapi.io.jpg"
+    }
+  ],
+  "articles": [
+    {
+      "title": "The internet's Own boy",
+      "slug": "the-internet-s-own-boy",
+      "category": {
+        "id": 5
+      },
+      "author": {
+        "id": 1
+      },
+      "description": "Follow the story of Aaron Swartz, the boy who could change the world",
+      "cover": null,
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+        },
+        {
+          "__component": "shared.quote",
+          "title": "Thelonius Monk",
+          "body": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-art.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
+        },
+        {
+          "__component": "shared.slider",
+          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ]
+    },
+    {
+      "title": "This shrimp is awesome",
+      "slug": "this-shrimp-is-awesome",
+      "category": {
+        "id": 4
+      },
+      "author": {
+        "id": 1
+      },
+      "description": "Mantis shrimps, or stomatopods, are marine crustaceans of the order Stomatopoda.",
+      "cover": null,
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+        },
+        {
+          "__component": "shared.quote",
+          "title": "Thelonius Monk",
+          "body": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-art.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
+        },
+        {
+          "__component": "shared.slider",
+          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ]
+    },
+    {
+      "title": "A bug is becoming a meme on the internet",
+      "slug": "a-bug-is-becoming-a-meme-on-the-internet",
+      "category": {
+        "id": 2
+      },
+      "author": {
+        "id": 2
+      },
+      "description": "How a bug on MySQL is becoming a meme on the internet",
+      "cover": null,
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+        },
+        {
+          "__component": "shared.quote",
+          "title": "Thelonius Monk",
+          "body": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-art.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
+        },
+        {
+          "__component": "shared.slider",
+          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ]
+    },
+    {
+      "title": "Beautiful picture",
+      "slug": "beautiful-picture",
+      "category": {
+        "id": 4
+      },
+      "author": {
+        "id": 2
+      },
+      "description": "Description of a beautiful picture",
+      "cover": null,
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+        },
+        {
+          "__component": "shared.quote",
+          "title": "Thelonius Monk",
+          "body": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-art.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
+        },
+        {
+          "__component": "shared.slider",
+          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ]
+    },
+    {
+      "title": "What's inside a Black Hole",
+      "slug": "what-s-inside-a-black-hole",
+      "category": {
+        "id": 1
+      },
+      "author": {
+        "id": 2
+      },
+      "description": "Maybe the answer is in this article, or not...",
+      "cover": null,
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+        },
+        {
+          "__component": "shared.quote",
+          "title": "Thelonius Monk",
+          "body": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-art.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
+        },
+        {
+          "__component": "shared.slider",
+          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ]
+    }
+  ]
+}

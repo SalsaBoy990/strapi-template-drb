@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "reference_sliders",
+  "info": {
+    "singularName": "reference-slider",
+    "pluralName": "reference-sliders",
+    "displayName": "Reference slider",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "udg.image-block"
+    },
+    "titleBar": {
+      "type": "component",
+      "repeatable": false,
+      "component": "udg.title-bar"
+    }
+  }
+}
