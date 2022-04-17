@@ -198,7 +198,7 @@ async function updateSlides(blocks) {
     // Copy the block to not mutate directly
     const blockCopy = { ...block };
     // Replace the file name on the block with the actual file
-    blockCopy.image = background;
+    blockCopy.image = image;
     blockCopy.logo = logo;
     updatedBlocks.push(blockCopy);
   }
@@ -224,7 +224,7 @@ async function importArticles() {
 }
 
 async function importReferenceSlides() {
-  const updatedImageBlocks = updateImageBlocks(referenceSlides.imageBlocks);
+  const updatedImageBlocks = await updateImageBlocks(referenceSlides.imageBlocks);
 
   await createEntry({
     model: "reference-slider",
