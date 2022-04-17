@@ -13,7 +13,7 @@
   "keywords": [
     "strapi"
   ],
-  "author": "guland@protonmail.com",
+  "author": "András Gulácsi <guland@protonmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SalsaBoy990/strapi-template-drb/issues"
