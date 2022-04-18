@@ -1,6 +1,6 @@
 {
   "name": "@salsaboy990/strapi-template-drb",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A Strapi template to create Strapi projects pre-configured for apps.",
   "main": "index.js",
   "scripts": {
